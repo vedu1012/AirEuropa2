@@ -25,4 +25,4 @@ client.on("guildMemberAdd", function(message) {
     member.guild.channels.find('name', 'welcome').send({ embed: embed });
 });
 
-client.login(process.env.token).catch(console.error);
+client.login(process.env.tokenb).catch(console.error);
