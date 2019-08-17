@@ -25,4 +25,4 @@ client.on("guildMemberAdd", function(message) {
     member.guild.channels.find('name', 'welcome').send({ embed: embed });
 });
 
-client.login('NjAyOTA1Nzc1NDQ2MTYzNDY2.XTXtFw.hBO37naJVPEEPNiy8Q08SDgenB0');
+client.login('process.env.TOKEN');
